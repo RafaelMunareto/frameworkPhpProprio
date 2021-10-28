@@ -1,0 +1,371 @@
+
+html{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	background-color: #F1F4F6;
+}
+main{
+	background-color: #F1F4F6;
+	overflow:hidden;
+}
+.tabelas{
+	display: flex;
+	flex: row;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+ 
+}
+
+.div_historico{
+
+	display: flex row;
+	padding-top: 0.5rem;
+	margin-left: 7.5rem;
+}
+.historico{
+	flex:1;
+	font-size: 0.8rem;
+	
+
+	text-align: center;
+}
+
+.historico th{
+	font-weight: bold;
+}
+
+.scroll{
+	height: 24.9rem;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+
+.scrollG{
+	height: 18.8rem;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+ }
+
+
+
+.meio{
+	display: flex row;
+	text-align: center
+	
+}
+
+.iconeHome{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background: url(../img/home.png);
+    display: flex;
+    left: 95%;
+    top: 2rem;
+}
+
+.home{
+	width: 5%;
+    position: relative;
+    left: 91%;
+}
+
+
+.ranking th{
+	font-size: 150%;
+}
+
+
+
+tbody th{
+	padding-left:1rem;
+}
+#grafico{
+	margin:1rem;
+
+}
+
+
+th{ 
+
+	font-size: 90%;
+
+ }
+
+
+.rede-parceira, .rede-valor, .bonus, .ranking {
+	border:2px solid #fff;
+	background-color: white;
+	margin:1rem;
+	flex:1;
+	width:99%;
+	margin-right: 4rem;
+
+}
+
+
+.div_ranking{
+	display: flex column;
+	justify-content: space-around;
+
+
+}
+
+
+td{
+	height: 1.5rem;
+}
+.redeP, .redeV, .redeB, {
+	display: flex;
+	justify-content: space-around;
+	
+
+}
+.tabelas tbody th{
+	text-align: justify;
+	color: #000;
+	vertical-align: middle;
+
+}
+
+
+.superior{
+	flex-direction: row;
+	justify-content: center;
+	
+}
+	
+.row{
+	margin-right: 1rem;
+	margin-left: 1rem;
+
+}
+
+.tabelas thead th{
+	text-align: center;
+	font-size: 85%;
+	height: 2.2rem;
+	color: #000;
+	vertical-align: middle;
+	background-color: white;
+}
+
+.tabelas tbody tr {
+	text-align: center;
+	font-size: 75%;
+}
+.tabelas td{
+	vertical-align: middle;
+}
+
+
+.tabelas tbody tr:nth-child(even){
+	background-color: #F2F3F7 ;
+
+}
+
+.ranking thead th{
+	background-color: #CC9B25 ;
+	font-size:90%;
+	font-weight: 400;
+	color:white;
+	height:2.8rem;
+}
+
+.ranking tbody tr:nth-child(even){
+	background-color: #F2F3F7 ;
+
+}
+
+.percentual{
+	font-weight: bold;
+}
+input[type=text]{ 	
+	border-radius:3px;
+	box-shadow: 0px 0px 3px #333333 inset;	
+	background:#F1F4F6;
+	border:0.5px solid #1F508F;
+	width:5rem;
+	height: 1rem;
+}
+
+.row{ 
+	
+	display: flex;
+	margin-left: 1rem;
+	margin-right:1rem;
+	margin-bottom:1rem;
+ }
+
+.meta, .realizado{
+	text-align: right;
+	padding-right: 2rem;
+}
+
+.agrega, .peso_outputB{
+	padding-left: 0.4rem
+}
+
+.peso{
+	width: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+/*ESCONDER A BARRA DO PESO*/
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+.peso_output, #Pontos {
+	display: none;
+}
+#adiciona_bonus{
+	width: 50%;
+	color: #213770
+}
+#titulo-seg1, #titulo-seg2, #titulo-seg3{
+	padding:0.6rem;
+	background-image:linear-gradient(-20deg, #16aaff 0%, #213770 100%);
+}
+
+#titulo-seg4{
+	background-image:linear-gradient(-20deg, #F7B924 0%, #23272B 100%);
+	margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: -1rem;
+    width: 99%;	
+    margin-top:1rem;
+    -moz-appearance:none;
+}
+
+.direita{
+	margin-right: 2.2rem;
+
+}
+
+.esquerda{
+	margin-left: 0.9rem;
+}
+#notaFinal{
+	padding: 1rem;
+}
+#CarnotaFinal{
+	flex-direction: right
+}
+
+#grafico-aranha{
+	background: white
+
+}
+.superior{
+	display: flex row wrap;
+	justify-content: center;
+	
+}
+
+
+.app-header header-shadow{
+	position: fixed;
+}
+
+.direita, .esquerda{
+	flex:1;
+	justify-content: center;
+}
+
+
+/*BARRA DE ANIMAÇÃO*/
+.barra-area {
+    position:relative;
+    display:block;
+    width:100%;
+    
+}
+.barra {
+    position:relative;
+    display:block;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+    -webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, .2);
+    -o-box-shadow:inset 0 1px 3px rgba(0, 0, 0, .2);
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, .2)
+}
+.carga {
+    height:12px;
+    display:block;
+    width:0%;
+    border-radius:3px;
+    -webkit-transition:width .8s ease;
+    -moz-transition:width .8s ease;
+    -o-transition:width .8s ease;
+    transition:width .8s ease
+}
+/*CORES DAS BARRAS (O JS ESTÁ NOS BARRAS_ANIMADAS)*/
+.cor_barra_min{
+    background-color: #CCCCCC;
+}
+.cor_barra_max{
+    background-color: #1A7FCA;
+}
+.cor_barra_top{
+    background-color: #F7B924;
+}
+/*CORES NOTA FINAL (O JS ESTÁ NOS BARRAS_ANIMADAS)*/
+.nota_vermelha{
+    background-color: #D92550;
+}
+.letra_vermelha{
+    color:#D92550;
+}
+.nota_amarela{
+    background-color:#F7B924;
+}
+.letra_amarela{
+    color:#F7B924;
+}
+.nota_verde{
+    background-color:#3AC47D;
+}
+.letra_verde{
+    color: #3AC47D;
+}
+.nota_azul{
+    background-color:#1A7FCA;
+}
+.letra_azul{
+     color:#1A7FCA;
+}
+.sombra_vermelha{
+    box-shadow:0 0.46875rem 2.1875rem rgba(217,37,80,0.04), 0 0.9375rem 1.40625rem rgba(217,37,80,0.03), 0 0.25rem 0.53125rem rgba(217,37,80,0.05), 0 0.125rem 0.1875rem rgba(217,37,80,0.03);
+    border: 1px rgba(247,185,36,0.04) solid ;
+}
+
+.sombra_verde{
+    box-shadow: 0 0.46875rem 2.1875rem rgba(58,196,125,0.04), 0 0.9375rem 1.40625rem rgba(58,196,125,0.03), 0 0.25rem 0.53125rem rgba(58,196,125,0.05), 0 0.125rem 0.1875rem rgba(58,196,125,0.03);
+}
+.sombra_amarela{
+    box-shadow: 0 0.46875rem 2.1875rem rgba(247,185,36,0.04), 0 0.9375rem 1.40625rem rgba(247,185,36,0.03), 0 0.25rem 0.53125rem rgba(247,185,36,0.05), 0 0.125rem 0.1875rem rgba(247,185,36,0.03);
+}
+.sombra_azul{
+    box-shadow: 0 0.46875rem 2.1875rem rgba(26, 127, 202,0.4), 0 0.9375rem 1.40625rem rgba(26, 127, 202,0.03), 0 0.25rem 0.53125rem rgba(26, 127, 202,0.03), 0 0.125rem 0.1875rem rgba(26, 127, 202,0.03);
+}
+#tamanhoBarraBONUS{
+    font-size:0.00000000001px;
+}
+
+
+.ranking td {
+	height:2.1rem;
+}
+
+#modal td{
+	height:1rem;
+}
